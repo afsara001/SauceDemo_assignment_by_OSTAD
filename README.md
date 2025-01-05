@@ -1,29 +1,22 @@
-## SauceDemo Automation Assignment by ostad
-You are asking for automation tests on the (https://www.saucedemo.com/)   site.
+# SauceDemo Automation
+Website URl - (https://www.saucedemo.com/) 
 
 
 
-- Q1|[Mark 20] Try login with locked_out_user and verify the error message,
+- Try login with locked_out_user and verify the error message,
 
 
 
-- Q1|[Mark 50] Login with standard_user. Then from the hamburger menu Reset App State. Then Add Any three items to the cart. Then navigate up to the final checkout page and verify all the product's name and the total price. Then finish the purchase journey and verify the successful order message. Then Reset the App State again and log out.
+- Login with standard_user. Then from the hamburger menu Reset App State. Then Add Any three items to the cart. Then navigate up to the final checkout page and verify all the product's name and the total price. Then finish the purchase journey and verify the successful order message. Then Reset the App State again and log out.
 
 
 
-- Q2|[Mark 30] Login with performance_glitch_user and Reset App State. Then filter by name (Z to A) and select the first product into the cart. Then navigate up to the final checkout page and verify all the product's name and the total price. Then finish the purchase journey and verify the successful order message. Then Reset the App State again and log out.
+- Login with performance_glitch_user and Reset App State. Then filter by name (Z to A) and select the first product into the cart. Then navigate up to the final checkout page and verify all the product's name and the total price. Then finish the purchase journey and verify the successful order message. Then Reset the App State again and log out.
+## Prefered Language
+- JavaScript
+## Prerequisites:
+- Install Node.js: Download and install Node.js.
+- Install VS Code: Download and install Visual Studio Code.
+- Install Selenium WebDriver.
+- Install Browser Driver: Download the appropriate browser driver (e.g., ChromeDriver) and add it to your system's PATH.
 
-
-
-NOTE: 
-
-
-
-- Upload your code into the GitHub public repository and share the repository URL. (Your assessment will not accepted without the GitHub repository)
-
-- All three test scenarios should be run separately and also altogether in a sequential way.  
-
-- Should be able to generate the report after every execution.
-
-- You can use any of your preferred languages and automation frameworks. But add a readme file for the execution process.
-## Note: Couldnt generate Allure Report, plz don't give "0" marks :) 
